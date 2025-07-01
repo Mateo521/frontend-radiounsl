@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+body{
+    font-family: 'Inter', sans-serif;
+}
 #bg-res{
     background-color:#F0F0F0;
 }
@@ -46,9 +48,18 @@ footer{
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
 }
 #noticia-g{
-    border-top-left-radius:12px;
-    border-top-right-radius:12px;
-    max-height:450px;
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
+    max-height:350px;
     height:100%;
     object-fit:cover;
+}
+#noticia-d{
+    grid-template-columns: 35% 1fr;
+}
+#noticia-d img{
+    width: 25%;
+}
+#noticia-d h3{
+    margin: 0;
 }
